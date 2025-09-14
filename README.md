@@ -1,21 +1,60 @@
-# FSD Project
-
-This repository contains the source code for the FSD project.
-
-## Project Structure
-
-- `.idea/` - IDE settings (excluded from version control)
-- `.env` - Environment variables and secrets (excluded from version control)
-- `env1/` - Python virtual environment (excluded from version control)
-- `__pycache__/` - Python cache files (excluded from version control)
-- `node_modules/` - Frontend dependencies (excluded from version control)
 
 ## Getting Started
 
-1. Clone the repository.
-2. Set up your Python virtual environment.
-3. Install required dependencies for both backend and frontend.
-4. Configure environment variables in `.env`.
+### Prerequisites
+
+- Node.js & npm
+- Python 3.x
+- pip
+
+### Backend Setup (Django)
+
+1. Navigate to the `server` directory:
+    ```sh
+    cd server
+    ```
+2. (Optional) Create and activate a virtual environment:
+    ```sh
+    python -m venv ../env1
+    # Windows:
+    ../env1/Scripts/activate.bat
+    ```
+3. Install dependencies:
+    ```sh
+    pip install -r ../requirements.txt
+    ```
+4. Run migrations:
+    ```sh
+    python manage.py migrate
+    ```
+5. Start the backend server:
+    ```sh
+    python manage.py runserver
+    ```
+
+### Frontend Setup (React)
+
+1. Navigate to the `frontend` directory:
+    ```sh
+    cd frontend
+    ```
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+3. Start the frontend development server:
+    ```sh
+    npm start
+    ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Features
+
+- Aptitude resources and practice
+- Programming challenges
+- Company-specific preparation
+- Practice tests and progress tracking
+- Intelligent question generation: Questions are generated automatically by AI based on the student's performance, providing personalized practice and adaptive learning.
 
 ## Contributing
 
