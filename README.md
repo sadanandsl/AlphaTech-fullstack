@@ -4,7 +4,7 @@
 This is a fullstack web application to help users prepare for placements, featuring aptitude, programming, company-specific tests, and more.
 
 ## Backend Technology
-The backend is developed using Django and Django REST Framework.
+The backend is developed using  Django REST Framework.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ The backend is developed using Django and Django REST Framework.
 - Python 3.x
 - pip
 
-### Backend Setup (Django & Django REST Framework)
+### Backend Setup (Django REST Framework)
 
 1. Navigate to the `server` directory:
     ```sh
@@ -58,7 +58,7 @@ The backend is developed using Django and Django REST Framework.
 ## Features
 
 - Aptitude resources and practice
-- Programming challenges (powered by Django REST Framework API)
+- Programming challenges 
 - Company-specific preparation
 - Practice tests and progress tracking
 - Intelligent question generation: Questions are generated automatically by AI based on the student's performance, providing personalized practice and adaptive learning.
