@@ -1,4 +1,11 @@
 
+# AlphaTech Placement Preparation Platform
+
+This is a fullstack web application to help users prepare for placements, featuring aptitude, programming, company-specific tests, and more.
+
+## Backend Technology
+The backend is developed using Django and Django REST Framework.
+
 ## Getting Started
 
 ### Prerequisites
@@ -7,7 +14,7 @@
 - Python 3.x
 - pip
 
-### Backend Setup (Django)
+### Backend Setup (Django & Django REST Framework)
 
 1. Navigate to the `server` directory:
     ```sh
@@ -51,7 +58,7 @@
 ## Features
 
 - Aptitude resources and practice
-- Programming challenges
+- Programming challenges (powered by Django REST Framework API)
 - Company-specific preparation
 - Practice tests and progress tracking
 - Intelligent question generation: Questions are generated automatically by AI based on the student's performance, providing personalized practice and adaptive learning.
