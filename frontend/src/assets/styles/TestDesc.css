@@ -1,0 +1,6 @@
+.containerS{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+    width: 90%;
+}

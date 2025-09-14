@@ -1,0 +1,73 @@
+/* Questions.css */
+
+.questions-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.questions-form {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.question-item {
+  margin-bottom: 30px;
+}
+
+.question-number {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+  text-align: left;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.option-item:hover {
+  background-color: #ddd; /* Add a subtle background color on hover */
+}
+
+.option-text {
+  margin-right: 12px;
+}
+
+.correct-option {
+  background-color: green;
+  color: white;
+}
+
+.incorrect-option {
+  background-color: red;
+  color: white;
+}
+
+.explanation-container {
+  margin-top: 10px;
+}
+
+.correct-explanation {
+  color: green;
+}
+
+.incorrect-explanation {
+  color: red;
+}

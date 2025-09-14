@@ -1,0 +1,88 @@
+.containersec {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  margin: 20px auto; /* Center the container horizontally */
+  max-width: 800px; /* Limit container width for better readability */
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  background-color: #007bff; /* Blue color for buttons */
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.test-info {
+  margin-bottom: 20px;
+}
+
+.test-in-progress {
+  color: #007bff;
+}
+
+.thank-you {
+  color: #28a745; /* Green color for thank you message */
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.points-gained {
+  font-size: 18px;
+}
+
+.quiz-content {
+  background-color: #fff; /* White background for question content */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+.navigation-buttons {
+  display: flex; /* Display buttons in a row */
+  justify-content: space-between; /* Space between buttons */
+  margin-top: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: flex-start;
+  width: 30%;/* Align items to the start (top) vertically */
+}
+
+.option input[type="radio"] {
+  margin-right: 20px; /* Add margin between radio input and label */
+}
+.question{
+  text-align: justify;
+}
+.options{
+  display: inline-block;
+}
+
+.option label {
+  margin-top: 2px; /* Adjust top margin for label */
+}
+@media screen and (max-width: 768px) {
+  /* Responsive styles */
+  .button {
+    font-size: 14px;
+  }
+}

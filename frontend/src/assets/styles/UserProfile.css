@@ -1,0 +1,36 @@
+/* CSS for Avatar Image */
+.avatar-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the entire container */
+  margin-bottom: 20px;
+  border: 2px solid #ccc; /* Optional: Add a border for visual appeal */
+}
+
+/* CSS for File Input */
+.form-control-file {
+  display: none; /* Hide the file input */
+}
+
+/* CSS for Custom File Input Button */
+.custom-file-upload {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
+/* UserProfile.css */
+.welcome-message {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+

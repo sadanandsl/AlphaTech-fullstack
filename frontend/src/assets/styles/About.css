@@ -1,0 +1,36 @@
+.about-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    width: 80%;
+    margin: 0 auto;
+    /* background: #76b7bc; */
+  }
+  /* body{
+    background-color: #76b7bc;
+  } */
+  .about-content {
+    /* flex: 1; */
+    padding-right: 70px;    
+  }
+  
+  .about-image img {
+    width: 500px;
+        /* height: auto; */
+    /* Adjust styling for the image */
+  }
+  .aboutheading{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: justify;
+  }
+  .aboutdescp{
+    font-weight: 600;
+    text-align: justify;
+  }
+  h6{
+    font-weight: 700;
+    text-align: justify;
+  }
+  

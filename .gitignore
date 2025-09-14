@@ -1,0 +1,12 @@
+# IDE settings and secrets
+.idea/
+.env
+
+# Python virtual environment
+env1/
+
+# Python cache
+__pycache__/
+
+# Frontend dependencies
+node_modules/

@@ -1,0 +1,26 @@
+
+.carousel-item img {
+  height: 100%; /* Set the desired height to 100% for responsiveness */
+  width: 100%; /* Ensure the image takes up the full width */
+  object-fit: cover; /* Ensure the image covers the entire area */
+  object-position: center top; /* Center the image at the top */
+}
+
+/* Customize the Carousel Caption */
+.carousel-caption {
+  background: rgba(10, 49, 88, 0.8); /* Semi-transparent dark blue background */
+  color: #fff; /* White text color */
+  padding: 20px; /* Add padding for better readability */
+  border-radius: 5px; /* Add a slight border radius */
+}
+
+/* Adjust the font size and style for the Carousel Caption */
+.carousel-caption h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  margin-bottom: 0; /* Remove default margin for p elements */
+}
